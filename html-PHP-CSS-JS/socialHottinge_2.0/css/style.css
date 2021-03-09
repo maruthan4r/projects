@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@font-face {
+    font-family: sfbold;
+    src: url(fonts/sfbold.otf) format("opentype");
+}
+@font-face {
+    font-family: sfregular;
+    src: url(fonts/sfregular.otf) format("opentype");
+}
+
+/*Elemente*/
+html{
+    background-color: #1c5e87;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sfbold;
+    font-size: 24px;
+}
+h1{
+    font-size: 48px;
+    font-family: sfbold;
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+    font-family: sfbold;
+}
+h3{
+    font-size: 32px;
+    font-family: sfbold;
+}
+a{
+    font-size: 24px;
+    font-family: sfregular;
+    color: white;
+    text-decoration: none;
+}
+p{
+    font-size: 24px;
+    font-family: sfregular;
+}
+section{
+    text-align: center;
+}
+div{
+    text-align: center;
+
+}
+
+input{
+    background-color: #1c5e87;
+    border-radius: 10px;
+}
+
+/*KLASSEN*/
+
+.navigation{
+    overflow: hidden;
+}
+.navigation a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*IDENTIFIKATOREN*/
+
+#spotify{
+    padding: 100px;
+}
+#instagram{
+    padding: 100px;
+}
+#instagram a{
+    border-radius: 10px;
+    padding: 10px;
+}
+#instagram a:hover{
+    background: linear-gradient(to right,#4564CA,#8D3FB9,#F34D57, #FF8E48);
+}
+#tellonym{
+    padding: 100px;
+}
+#tellonym a{
+    padding: 10px;
+    border-radius: 10px;
+}
+#tellonym a:hover{
+    background-color: #FF017B;
+}
+#yearbook{
+    padding: 100px;
+}
+#yearbook a{
+    padding: 10px;
+    border-radius: 10px;
+}
+#yearbook a:hover{
+    background-color: #ffdf87;
+    color: black;
+}
+#votings{
+    padding: 100px;   
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@font-face {
+    font-family: sfbold;
+    src: url(fonts/sfbold.otf) format("opentype");
+}
+@font-face {
+    font-family: sfregular;
+    src: url(fonts/sfregular.otf) format("opentype");
+}
+
+
+html{
+    font-family: sfregular;
+    background-color: black;
+}
+h1{
+    font-family: sfbold;
+    font-size: 40px;
+}
+h2{
+    font-family: sfbold;
+    font-size: 20px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sfregular;
+
+
+
+}
+
+#backtotop{
+
+}
+#Einleitung{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: border-box;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Instagram{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: border-box;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#tellonym{
+    background-color: black;
+    color: #ff017b ;
+    padding: 10px;
+    margin-top: 10px;
+    width: border-box;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#tellonymButton{
+    background-color: black;
+    color: #ff017b ;
+    padding: 10px;
+}
+.buttons{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-family: sfregular;
+
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px ;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+#tellonymButton:hover{
+    background-color: #ff017b;
+    color: white;
+
+}
+
+#buttontotop :visited{
+    color: white;
+    text-underline: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between
+    ;
+}

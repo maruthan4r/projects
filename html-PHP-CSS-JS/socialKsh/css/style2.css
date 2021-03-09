@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@font-face {
+    font-family: sfbold;
+    src: url(fonts/sfbold.otf) format("opentype");
+}
+@font-face {
+    font-family: sfregular;
+    src: url(fonts/sfregular.otf) format("opentype");
+}
+
+
+
+html{
+    font-family: sfregular;
+    background-color:  #a8ecff;
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: sfbold;
+    font-size: 40px;
+}
+h2{
+    font-family: sfbold;
+    font-size: 20px;
+
+}
+
+footer{
+    background-color: #a8ecff;
+    color: white;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sfregular;
+    display: flex;
+    justify-content: space-between
+    ;
+
+
+
+}
+
+.blocks{
+    background-color: #a8ecff;
+    color: white;
+    padding: 10px;
+    width: border-box;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Einleitung{
+    background-color: #a8ecff;
+    color: white;
+    padding: 10px;
+    width: border-box;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#Instagram{
+    background-color:#a8ecff;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: border-box;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#tellonym{
+    background-color: #a8ecff;
+    color: #ff017b ;
+    padding: 10px;
+    margin-top: 10px;
+    width: border-box;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#loginField{
+    background-color:#a8ecff;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: border-box;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#tellonymButton{
+    background-color: #a8ecff;
+    color: #ff017b ;
+    padding: 10px;
+}
+
+#tellonymButton:hover{
+    background-color: #ff017b;
+    color: white;
+
+}
+
+#buttontotop :visited{
+    color: white;
+    text-decoration: none;
+}
+
+.buttons{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-family: sfregular;
+
+    background-color:  #a8ecff;
+    color: white;
+    border-color:  #a8ecff;
+    border-radius: 10px;
+    padding: 10px ;
+    transition-duration: 0.3s;
+}
+
+.buttons:hover{
+    background-color: #a8ecff;
+    color: black;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    font-weight: bold;
+    background-color: #a8ecff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #spotifyEmbed{
+      border-color: black;
+      border-radius: 10px;
+
+  }
