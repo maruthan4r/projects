@@ -34,7 +34,7 @@ fclose($fp);
 <table class="center">
 <tr>
 <td>IMS:</td>
-<td><img src="/images/pollbalken.gif"
+<td><img src="images/pollbalken.gif"
 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
 height='20'>
 <?php echo(100*round($yes/($no+$yes),2)); ?>%
@@ -42,7 +42,7 @@ height='20'>
 </tr>
 <tr>
 <td>HMS:</td>
-<td><img src="/images/pollbalken.gif"
+<td><img src="images/pollbalken.gif"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
 height='20'>
 <?php echo(100*round($no/($no+$yes),2)); ?>%

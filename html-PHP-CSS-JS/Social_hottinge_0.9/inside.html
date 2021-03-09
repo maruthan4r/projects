@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="utf-8" lang="de-CH">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+        function getVote(int) {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("poll").innerHTML = this.responseText;
+                }
+            }
+            xmlhttp.open("GET", "poll_vote.php?vote=" + int, true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <a href="#instagram">Instagram</a>
+            <a href="#tellonym">Tellonym</a>
+            <a href="#yearbook">Yearbook</a>
+            <a href="#spotify">Radio</a>
+            <a href="#votings">Abstimmungen</a>
+        </div>
+    </header>
+    <h1>Welcome into socialHottinge!</h1>
+    <div id="spotify">
+        <h2>Radio:</h2>
+        <iframe src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div id="instagram">
+        <h2>Instagram</h2>
+        <a href="https://instagram.com/socialHottinge" target="_blank">socialHottinge</a>
+    </div>
+    <div id="tellonym">
+        <h2>Schreibt uns!</h2>
+        <a href="https://tellonym.me/socialhottinge" target="_blank">Tellonym</a>
+    </div>
+    <div id="votings">
+        <h2>Abstimmungen</h2>
+        <p>Umfragen können auf Tellonym oder per DM eingereicht werden.</p>
+        <p>Abgestimmt wird anonym.</p>
+
+
+        <h3>Für den Anfang...</h3>
+        <div id="poll">
+            <form>
+                <p>IMS <input type="radio" name="vote" value="0" onclick="getVote(this.value)"></p>
+                <p>HMS <input type="radio" name="vote" value="1" onclick="getVote(this.value)"></p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p>Version: Alpha 0.9</p>
+        </div>
+    </footer>
+</body>
+
+</html>
