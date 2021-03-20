@@ -27,7 +27,7 @@ var myChart = new Chart(ctx, {
                 10, /**Britney spears*/
                 2, /**Far east movement*/
                 2, /**Macklemore */
-                10, /**Pitbull */
+                30, /**Pitbull */
                 2, /**50 Cent */
                 2, /**Lil Wayne */
                 6, /**Rihanna */
