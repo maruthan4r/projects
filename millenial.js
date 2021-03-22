@@ -1,4 +1,8 @@
 var ctx = document.getElementById('millenial-chart');
+var millenial_data = [5, 5, 9, 4, 10, 2, 2, 10, 2, 2, 6, 9, 3];
+console.log(
+    millenial_data.reduce(function(acc, val) { return acc + val; }, 0)
+);
 var myChart = new Chart(ctx, {
     type: 'pie',
     data: {
@@ -15,7 +19,9 @@ var myChart = new Chart(ctx, {
             'Lil Wayne',
             'Rihanna',
             'Usher',
-            'Shakira'
+            'Shakira',
+            'Beyonce',
+            'Other'
         ],
         datasets: [{
             label: '# of Votes',
@@ -27,12 +33,14 @@ var myChart = new Chart(ctx, {
                 10, /**Britney spears*/
                 2, /**Far east movement*/
                 2, /**Macklemore */
-                30, /**Pitbull */
+                10, /**Pitbull */
                 2, /**50 Cent */
                 2, /**Lil Wayne */
                 6, /**Rihanna */
                 9, /**Usher */
                 3, /**Shakira */
+                5, /**Beyonce */
+                137 /**Other Artists  */
 
 
             ],
@@ -49,6 +57,9 @@ var myChart = new Chart(ctx, {
                 'rgba(0, 225, 255, 0.2)',
                 'rgba(0, 77, 153, 0.2)',
                 'rgba(33, 0, 153, 0.2)',
+                'rgba(247, 3, 255, 0.2)',
+                'rgba(125,125,125, 0.2)'
+
             ],
             borderWidth: 0
         }]
