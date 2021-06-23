@@ -1,5 +1,5 @@
 # Projects
-Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam.
+Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam. Hinterlegte Projekte funktionieren vollständig und sind fertig.
 
 |Status| Projektname | Kurzbeschreibung |
 | ------ | ------ | ------ |
