@@ -3,7 +3,7 @@ Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam. Hinter
 |Status| Projektname | Kurzbeschreibung |
 | ------ | ------ | ------ |
 | Stable | [Geschichte des PC's][pc-history]| Eine Website zur Erläuterung der Geschichte des PC's. Eine Projekt von Freunden. 
-| Stable | [Shrate][shrate] | Persönliche Website. Projekt ist noch nicht fertig daher nur ein Beispielseite.Grundgedanke war eine Website ohne cms und mit eigener Domain aufzubauen. |
+| Stable | [Shrate][shrate] | Persönliche Website.|
 
 V 0.9.1
 
