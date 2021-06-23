@@ -1,6 +1,5 @@
 # Projects
-## Repository für alle öffentlichen Projekte von 
-## Maruthan Thanabalasingam.
+Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam.
 
 |Status| Projektname | Kurzbeschreibung |
 | ------ | ------ | ------ |
