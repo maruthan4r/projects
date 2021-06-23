@@ -1,6 +1,5 @@
 # Projects
-Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam. Hinterlegte Projekte funktionieren vollständig und sind fertig.
-
+Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam. Hinterlegte Projekte funktionieren vollständig.
 |Status| Projektname | Kurzbeschreibung |
 | ------ | ------ | ------ |
 | Stable | [Geschichte des PC's][pc-history]| Eine Website zur Erläuterung der Geschichte des PC's. Eine Projekt von Freunden. 
