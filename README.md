@@ -10,10 +10,10 @@ Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam.
 V 0.9.1
 
 
-   [pc-history]:<https://github.com/maruthan4r/projects/blob/main/Gruppenarbeit-website-main.zip>
+   [pc-history]:<https://maruthan4r.github.io/Gruppenarbeit-website/>
    [shrate]:<https://shrate.net>
    [pong]:<https://github.com/maruthan4r/projects/tree/main/Python/Game_01_Pong>
 
 
-Gruppenarbeit "Geschichte des Computers"  : http://pcgeschichte.000webhostapp.com/
+Gruppenarbeit "Geschichte des Computers"  : https://maruthan4r.github.io/Gruppenarbeit-website/
 One-man-project "shrate.net"              : https://shrate.net/
