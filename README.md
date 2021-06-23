@@ -4,8 +4,7 @@ Repository für alle öffentlichen Projekte von Maruthan Thanabalasingam.
 |Status| Projektname | Kurzbeschreibung |
 | ------ | ------ | ------ |
 | Stable | [Geschichte des PC's][pc-history]| Eine Website zur Erläuterung der Geschichte des PC's. Eine Gruppenarbeit. 
-| unstable | [Pong][pong] | Ein Multiplayer-Ping-Pong-Spiel. Eine Einzelarbeit.|
-| Sample Page | [Shrate][shrate] | Persönliche Website. Projekt ist noch nicht fertig daher nur ein Beispielseite. |
+| Stable | [Shrate][shrate] | Persönliche Website. Projekt ist noch nicht fertig daher nur ein Beispielseite.Grundgedanke war eine Website ohne cms und mit eigener Domain aufzubauen. |
 
 V 0.9.1
 
