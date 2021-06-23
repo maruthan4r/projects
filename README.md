@@ -14,5 +14,5 @@ V 0.9.1
    [pong]:<https://github.com/maruthan4r/projects/tree/main/Python/Game_01_Pong>
 
 
-Gruppenarbeit "Geschichte des Computers"  : https://maruthan4r.github.io/Gruppenarbeit-website/
-One-man-project "shrate.net"              : https://shrate.net/
+- Gruppenarbeit "Geschichte des Computers"  : https://maruthan4r.github.io/Gruppenarbeit-website/
+- One-man-project "shrate.net"              : https://shrate.net/
